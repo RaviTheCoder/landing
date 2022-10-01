@@ -36,3 +36,14 @@ ul {
     height: 50px;
     width: 50px;
 }
+
+#hero {
+    max-width:600px;
+}
+
+.header,
+.intro,
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
