@@ -1,3 +1,4 @@
+/* MULTIS */
 body,
 .header,
 ul,
@@ -23,6 +24,26 @@ body,
     flex-direction: column;
 }
 
+.header,
+.intro,
+.footer,
+button {
+    background-color: #1F2937;
+    color: white;
+}
+
+button,
+.contact {
+    background-color: #3882F6;
+}
+
+/* HEADER */
+#h-logo {
+    font-size: 24px;
+    columns: #F9FAF8;
+    padding: 0 20px;
+}
+
 ul {
     list-style-type: none;
     margin-left: auto;
@@ -30,6 +51,26 @@ ul {
     padding-right: 30px;
 }
 
+li {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* DESCRIPTION */
+.desc {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+#hero {
+    max-width:600px;
+}
+
+/* MIDDLE */
 /* PLACEHOLDER BOX */
 .ph {
     border: solid 2px brown;
@@ -37,13 +78,12 @@ ul {
     width: 50px;
 }
 
-#hero {
-    max-width:600px;
-}
+/* QUOTE */
 
-.header,
-.intro,
+/* CONTACT */
+
+
+/* FOOTER */
 .footer {
-    background-color: #1F2937;
-    color: white;
+    justify-content: center;
 }
