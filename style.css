@@ -1,0 +1,38 @@
+body,
+.header,
+ul,
+.intro,
+.desc,
+.middle,
+.boxes,
+.box,
+.quote,
+.contact,
+.ask,
+.footer {
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+body,
+.desc,
+.middle,
+.box,
+.ask,
+.quote {
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: auto;
+    gap: 20px;
+    padding-right: 30px;
+}
+
+/* PLACEHOLDER BOX */
+.ph {
+    border: solid 2px brown;
+    height: 50px;
+    width: 50px;
+}
