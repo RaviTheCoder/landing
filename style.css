@@ -16,6 +16,7 @@ ul,
 .contact,
 .ask,
 .footer,
+.contact-content,
 .right-contact {
     display: flex;
     /* border: 2px solid red; */
@@ -140,6 +141,24 @@ h1 {
     padding: 20px;
 }
 
+.contact-content {
+    width: 750px;
+}
+
+.blue,
+.right-contact {
+    flex: 1;
+}
+
+.blue {
+    border-radius: 10px 0px 0px 10px;
+    /* border-bottom-left-radius: 10px; */
+}
+
+.right-contact {
+    border-radius: 0px 10px 10px 0px;
+}
+
 .ask {
     padding: 20px;
     color: white;
@@ -160,6 +179,7 @@ h1 {
     padding-bottom: 24px;
     border-radius: 10px;
     border-color: white;
+    margin-left: auto;
 }
 
 /* FOOTER */
