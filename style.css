@@ -8,13 +8,15 @@ body,
 ul,
 .intro,
 .desc,
+.hero-div,
 .middle,
 .boxes,
 .box,
 .quote,
 .contact,
 .ask,
-.footer {
+.footer,
+.right-contact {
     display: flex;
     /* border: 2px solid red; */
 }
@@ -24,7 +26,8 @@ body,
 .middle,
 .box,
 .ask,
-.quote {
+.quote,
+.right-contact {
     flex-direction: column;
 }
 
@@ -33,6 +36,13 @@ body,
 .quote {
     /* border: 2px solid red; */
     align-items: center;
+}
+
+.intro,
+.contact,
+.right-contact,
+.footer {
+    justify-content: center;
 }
 
 .header,
@@ -44,7 +54,8 @@ button {
 }
 
 button,
-.blue {
+.blue,
+.right-contact {
     background-color: #3882F6;
 }
 
@@ -70,7 +81,7 @@ li {
 /* DESCRIPTION */
 .desc {
     padding: 20px 80px;
-    border: solid 2px red;
+    max-width: 400px;
 }
 
 h1 {
@@ -80,11 +91,16 @@ h1 {
 
 #top-button {
     max-width: 100px;
+    height: 30px;
+    border-radius: 10px;
 }
 
 #hero {
-    max-width:600px;
-    flex: 1;
+    max-width:500px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
 }
 
 /* MIDDLE */
@@ -121,7 +137,6 @@ h1 {
 
 /* CONTACT */
 .contact {
-    justify-content: center;
     padding: 20px;
 }
 
@@ -134,8 +149,17 @@ h1 {
     margin-bottom: 0px;
 }
 
-/* FOOTER */
-.footer {
-    justify-content: center;
-
+.right-contact {
+    padding: 40px;
 }
+
+#bot-button {
+    max-width: 100px;
+    max-height: 30px;
+    padding: 10px;
+    padding-bottom: 24px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+/* FOOTER */
