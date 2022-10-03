@@ -121,7 +121,9 @@ h1 {
 }
 
 /* MIDDLE */
-
+.middle {
+    padding: 80px;
+}
 
 .middle > h2 {
     font-size: 36px;
@@ -129,12 +131,11 @@ h1 {
 }
 
 .boxes {
-    gap: 20px;
+    gap: 40px;
 }
 
-/* PLACEHOLDER BOX */
 .ph {
-    border: solid 2px brown;
+    border: solid 2px black;
     height: 100px;
     width: 100px;
     border-radius: 10px;
@@ -143,6 +144,7 @@ h1 {
 /* QUOTE */
 .quote {
     background-color: #E5E7EB;
+    padding: 80px;
 }
 
 #lyric {
