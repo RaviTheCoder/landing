@@ -2,7 +2,7 @@ body {
     margin: 0px;
 }
 
-/* MULTIS */
+/* git pus */
 body,
 .header,
 ul,
@@ -60,6 +60,20 @@ button,
     background-color: #3882F6;
 }
 
+body {
+    height: 100vh;
+}
+
+.middle,
+.quote {
+    flex: 3;
+    justify-content: center;
+}
+
+.contact {
+    flex: 1
+}
+
 /* HEADER */
 #h-logo {
     font-size: 24px;
@@ -113,14 +127,15 @@ h1 {
 }
 
 .boxes {
-    gap: 10px;
+    gap: 20px;
 }
 
 /* PLACEHOLDER BOX */
 .ph {
     border: solid 2px brown;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
 }
 
 /* QUOTE */
