@@ -156,12 +156,14 @@ h1 {
 .quote {
     background-color: #E5E7EB;
     padding: 80px;
+    background-image: url("./images/unused/Ravi4\ 2.JPG");
+    /* background-size: cover; */
 }
 
 #lyric {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color: #c4a5f7;
     max-width: 700px;
 }
 
