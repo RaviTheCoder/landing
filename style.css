@@ -105,6 +105,7 @@ li {
 .desc {
     padding: 20px 80px;
     max-width: 450px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -154,17 +155,23 @@ h1 {
 
 /* QUOTE */
 .quote {
-    background-color: #E5E7EB;
     padding: 80px;
     background-image: url("./images/unused/Ravi4\ 2.JPG");
     /* background-size: cover; */
 }
 
 #lyric {
-    font-size: 36px;
+    font-size: 28px;
     font-style: italic;
-    color: #c4a5f7;
+    color: #e2d1d1;
     max-width: 700px;
+    text-align: center;
+}
+
+#author {
+    color: #e2d1d1;
+    font-size: large;
+    margin-left: 10em;
 }
 
 
